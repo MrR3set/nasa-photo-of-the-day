@@ -1,14 +1,15 @@
 import React from "react";
 import "./App.css";
 import CardPage from "./components/CardPage"
+import Jumbotron from "./components/Jumbotron";
+
+// import Header from "./components/Header"
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-        <CardPage/>
-      </p>
+        {/* <Header/> */}
+        <Jumbotron/>
+        <CardPage/>  
     </div>
   );
 }
